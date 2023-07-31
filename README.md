@@ -5,7 +5,6 @@ Welcome to the C Labs Programming Class Repository! It's a collection of program
 
 - [Getting Started](#getting-started)
 - [Building the Repository](#building-the-repository)
-- [Contributing](#contributing)
 
 ## Getting Started
 
