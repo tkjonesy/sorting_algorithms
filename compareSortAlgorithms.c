@@ -83,7 +83,6 @@ void insertionSort(int* pData, int n) {
 
         pData[j + 1] = key;
     }
-	extraMemoryAllocated += sizeof(int) * n;
 }
 
 // Implement bubble sort
@@ -100,7 +99,6 @@ void bubbleSort(int* pData, int n) {
                 pData[j] = pData[j + 1];
                 pData[j + 1] = temp;
 
-                extraMemoryAllocated += sizeof(int);
                 swapped = 1;
             }
         }
@@ -127,8 +125,6 @@ void selectionSort(int* pData, int n) {
             temp = pData[i];
             pData[i] = pData[minIndex];
             pData[minIndex] = temp;
-
-            extraMemoryAllocated += sizeof(int);
         }
     }
 }
